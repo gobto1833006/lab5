@@ -88,7 +88,7 @@ public class Main extends Application {
 
         HBox hBox1 = new HBox(seConnecter, sInscrire);
         hBox1.setSpacing(5);
-        VBox vBox1 = new VBox(nomUtilisateur, boiteNU, motDePasse, boiteMDP, hBox1);
+        VBox vBox1 = new VBox(nomUtilisateur, boiteNU, motDePasse, boiteMDP, hBox1,messageErreur1);
         vBox1.setSpacing(10);
 
         HBox hBox2 = new HBox(homme, femme, autre);
